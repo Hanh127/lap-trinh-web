@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #6d28d9;
+  --color-primary: #6b21a8;
   --color-secondary: #a855f7;
   --color-accent: #22d3ee;
-  --color-background-light: #fdfaff;
-  --color-background-dark: #0f0720;
+  --color-background-light: #f8fafc;
+  --color-background-dark: #0f172a;
   --font-display: "Space Grotesk", sans-serif;
 }
 
 .galaxy-gradient {
-  background: linear-gradient(135deg, #0f0720 0%, #2e1065 50%, #6d28d9 100%);
+  background: linear-gradient(135deg, #0f172a 0%, #2e1065 50%, #6b21a8 100%);
 }
 
 .neon-border {
