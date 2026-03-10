@@ -154,10 +154,10 @@ export default function Cart() {
                       <button className="bg-primary/10 text-primary px-4 py-2 rounded-lg font-bold text-sm hover:bg-primary/20 transition-all">Áp dụng</button>
                     </div>
                   </div>
-                  <button className="w-full bg-primary text-white py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-primary/20 active:scale-[0.98] transition-all flex items-center justify-center gap-3">
+                  <Link to="/checkout" className="w-full bg-primary text-white py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-primary/20 active:scale-[0.98] transition-all flex items-center justify-center gap-3">
                     Tiến hành thanh toán
                     <span className="material-symbols-outlined">arrow_forward</span>
-                  </button>
+                  </Link>
                   <div className="mt-6 flex flex-col gap-3">
                     <div className="flex items-center gap-3 text-xs text-slate-500">
                       <span className="material-symbols-outlined text-primary text-lg">verified_user</span>
