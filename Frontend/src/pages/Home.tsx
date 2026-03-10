@@ -29,10 +29,10 @@ export default function Home() {
           </div>
           {/* Actions */}
           <div className="flex items-center gap-2 sm:gap-4">
-            <button className="p-2 hover:bg-white/10 rounded-full relative transition-colors">
+            <Link to="/cart" className="p-2 hover:bg-white/10 rounded-full relative transition-colors">
               <span className="material-symbols-outlined">shopping_cart</span>
               <span className="absolute top-1 right-1 bg-white text-[#4B0082] text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">2</span>
-            </button>
+            </Link>
             <button className="p-2 hover:bg-white/10 rounded-full relative transition-colors">
               <span className="material-symbols-outlined">person</span>
             </button>

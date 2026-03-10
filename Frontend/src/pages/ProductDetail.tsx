@@ -24,10 +24,10 @@ export default function ProductDetail() {
                 <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">search</span>
                 <input className="w-full border-none rounded-lg py-2 pl-10 pr-4 text-sm focus:ring-2 focus:ring-primary bg-white/10 text-white placeholder-white/60" placeholder="Tìm kiếm iPhone, phụ kiện..." />
               </div>
-              <button className="p-2 hover:bg-white/10 rounded-lg relative text-white">
+              <Link to="/cart" className="p-2 hover:bg-white/10 rounded-lg relative text-white">
                 <span className="material-symbols-outlined">shopping_cart</span>
                 <span className="absolute top-1 right-1 bg-primary text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">2</span>
-              </button>
+              </Link>
               <button className="p-2 hover:bg-white/10 rounded-lg relative text-white">
                 <span className="material-symbols-outlined">person</span>
               </button>
