@@ -52,7 +52,7 @@ export default function Login() {
                   <div>
                     <div className="flex justify-between items-center mb-2">
                       <label className="text-sm font-semibold text-slate-700 dark:text-slate-300">Mật khẩu</label>
-                      <a className="text-xs font-medium text-primary hover:underline" href="#">Quên mật khẩu?</a>
+                      <Link className="text-xs font-medium text-primary hover:underline" to="/forgot-password">Quên mật khẩu?</Link>
                     </div>
                     <div className="relative">
                       <span className="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-xl">lock</span>
@@ -98,7 +98,7 @@ export default function Login() {
                 <div className="mt-10 text-center">
                   <p className="text-slate-500 dark:text-slate-400 text-sm">
                     Chưa có tài khoản?
-                    <a className="text-primary font-bold hover:underline ml-1" href="#">Đăng ký ngay</a>
+                    <Link className="text-primary font-bold hover:underline ml-1" to="/register">Đăng ký ngay</Link>
                   </p>
                 </div>
               </div>
