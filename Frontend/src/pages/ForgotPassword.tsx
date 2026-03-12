@@ -41,10 +41,10 @@ export default function ForgotPassword() {
                     <input className="w-full pl-12 pr-4 py-4 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all outline-none text-slate-900 dark:text-slate-100" id="email" placeholder="Nhập email hoặc số điện thoại của bạn" type="text" />
                   </div>
                 </div>
-                <button className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-4 rounded-lg shadow-lg shadow-primary/25 transition-all flex items-center justify-center gap-2 group" type="submit">
+                <Link to="/otp-verification" className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-4 rounded-lg shadow-lg shadow-primary/25 transition-all flex items-center justify-center gap-2 group">
                   <span>Gửi yêu cầu</span>
                   <span className="material-symbols-outlined text-xl group-hover:translate-x-1 transition-transform">send</span>
-                </button>
+                </Link>
               </form>
               <div className="mt-8 pt-6 border-t border-slate-100 dark:border-slate-800 text-center">
                 <Link className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold transition-colors" to="/login">
