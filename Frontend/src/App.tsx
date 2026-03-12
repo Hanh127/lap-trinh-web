@@ -11,6 +11,7 @@ import OtpVerification from './pages/OtpVerification';
 import ResetPassword from './pages/ResetPassword';
 import OrderSuccess from './pages/OrderSuccess';
 import OrderHistory from './pages/OrderHistory';
+import Wishlist from './pages/Wishlist';
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/order-success" element={<OrderSuccess />} />
         <Route path="/order-history" element={<OrderHistory />} />
+        <Route path="/wishlist" element={<Wishlist />} />
       </Routes>
     </BrowserRouter>
   );
